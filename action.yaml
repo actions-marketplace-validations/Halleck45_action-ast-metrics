@@ -75,6 +75,7 @@ runs:
         path: ${{ inputs.report_html_directory }}
         name: 'AST Metrics HTML report'
 
+
 inputs:
   version:
     description: 'Version of AST Metrics to use'
@@ -92,4 +93,3 @@ inputs:
     description: Filename to save the markdown report.
     required: false
     default: 'ast-metrics-report.md'
-  
